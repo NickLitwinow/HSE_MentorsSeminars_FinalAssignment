@@ -10,17 +10,17 @@
 ## Структура проекта
 
 ```
-├── docker-compose.yml           # Конфигурация Docker-сервисов
+├── docker-compose.yml  # Конфигурация Docker-сервисов
 ├── trino/
 │   └── etc/
 │       └── catalog/
-│           ├── postgresql.properties   # Коннектор PostgreSQL
-│           ├── mysql.properties         # Коннектор MySQL
-│           └── iceberg.properties       # Коннектор Iceberg
+│           ├── postgresql.properties  # Коннектор PostgreSQL
+│           ├── mysql.properties  # Коннектор MySQL
+│           └── iceberg.properties  # Коннектор Iceberg
 ├── init-scripts/
-│   ├── postgres-init.sql        # Инициализация PostgreSQL
-│   └── mysql-init.sql           # Инициализация MySQL
-└── final_homework.ipynb         # Jupyter Notebook с решением
+│   ├── postgres-init.sql  # Инициализация PostgreSQL
+│   └── mysql-init.sql  # Инициализация MySQL
+└── final_homework.ipynb  # Jupyter Notebook с решением
 ```
 
 ## Сервисы
