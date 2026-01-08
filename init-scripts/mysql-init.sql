@@ -4,8 +4,10 @@
 -- Автор: Литвинов Никита Антонович, МИНДА 241
 -- ============================================================
 
--- Use the sales database
+-- Use the sales database with UTF-8
 USE sales_db;
+SET NAMES utf8mb4;
+SET CHARACTER SET utf8mb4;
 
 -- Create categories table
 CREATE TABLE categories (
